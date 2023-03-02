@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,400&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    background: #FFFFFF;
+}
+
+.container{
+    height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.intro {
+	display: flex;
+	height: 400px;
+	width:700px;
+}
+
+.card {
+	flex: 1;
+	width: 40%;
+  }
+
+/* #section2 {
+    position: absolute;
+    display: flex;
+    /* background-color: red; */
+ */
+
+
+.home-info {
+	flex:1; 
+    max-width: 300px;
+    max-height: 400px; 
+}
+
+.home-img{
+    padding:10px;
+	flex:1;
+    background-color: #F7F7F7;
+}
+
+.home-img .hello{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+.home-img .para{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.8;
+    font-size: 18px;
+    margin-top: 35px;
+}
+
+#Hello {
+    margin-top: 30px;
+    font-size:70px;
+}
+
+.row {
+	display:flex;
+	flex-wrap: wrap;
+	position: relative;
+}
+/* 
+section {
+    width: 50%;
+} */
+
+.main-box{
+    width: 280px;
+    height: 380px;
+    border-right:solid 1px black;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.06)!important;
+    text-align: center;
+    padding: 15px 0;
+    background-color: #F1F5FF;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 10px rgba(0,0,0,0.02);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #FFFFFF;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a{
+    height:40px;
+    line-height: 43px;
+    margin:3px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color:#585b5b;
+    letter-spacing: 1px;
+}
+.big-circle{
+    width: 150px;
+    height: 150px;
+    border: 10px solid #46E097;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+}
+.small-circle{
+    width: 140px;
+    height: 140px;
+    border: 10px solid #DAF9F6;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    background-image: url("damn1.webp");
+    background-position: center;
+    background-size: cover;
+}
+
+.heading-name{
+    padding-top: 25px;
+    margin: 3px 0;   
+}
+
+.heading-work{
+    /* background: blue; */
+    color: black;
+    font-weight: 500;
+    margin: 25px 0px 50px;
+}
+
+.follow_btn{
+    text-decoration: none;
+    background: white;
+    color: black;
+    border-radius: 50%;
+    padding: 13px;
+    margin: 13px;
+    width: 50px;
+    height: 50px;
+    font-size: 14px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+#github:hover {
+    background: #333333;
+    color: #ffffff;
+}
+
+
+#insta:hover {
+    background: red;
+    color: #ffffff;
+}
+
+
+#link:hover {
+    background: #1877F2;
+    color: #ffffff;
+}
+
+#twits:hover {
+    background: #1DA1F2;
+    color: #ffffff;
+}
+
+.single-services {
+text-align: center;
+margin-top: 60px;
+}
+
+.container {
+    margin-top: 60px;
+}
+.single-services .lnr {
+font-size: 35px;
+color: #46E097;
+-webkit-transition: all 0.3s ease 0s;
+-moz-transition: all 0.3s ease 0s;
+-o-transition: all 0.3s ease 0s;
+transition: all 0.3s ease 0s;
+}
+
+.single-services h4 {
+margin-top: 30px;
+margin-bottom: 20px;
+-webkit-transition: all 0.3s ease 0s;
+-moz-transition: all 0.3s ease 0s;
+-o-transition: all 0.3s ease 0s;
+transition: all 0.3s ease 0s;
+}
+
+.single-services p {
+max-width: 318px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+.single-services:hover h4 {
+color: #8490ff;
+}
